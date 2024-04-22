@@ -13,7 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<GitHubRepo />} />
           <Route path="/repo/:repoId" element={<RepoDetails />} />
-          <Route path="*" element={<NotFound />} />
+          <Route component={NotFound} />
         </Routes>
       </Router>
     </ErrorBoundary>
