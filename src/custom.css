@@ -1,0 +1,22 @@
+.repository-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.repository-container h2{
+    text-align: center;
+}
+
+.repository-container ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.repository-container ul li{
+    margin-bottom: 10px;
+}
+
+.repository-container ul li a{
+    text-decoration: none;
+    color: blue;
+}
